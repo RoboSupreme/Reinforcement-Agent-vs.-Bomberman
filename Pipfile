@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+gym = "*"
+keras = "*"
+tensorflow = "*"
+jsanimation = "*"
+matplotlib = "*"
+
+[packages]
+opencv-python = "*"
+pillow = "*"
+pipfile = "*"
+pandas = "*"
+tqdm = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.5"
