@@ -152,3 +152,14 @@ This environment is designed to be compatible with reinforcement learning librar
 
 This environment provides a foundation for developing and testing RL agents in a Bomberman-like setting. Modify the reward structure, game mechanics (`game.py`), or observation space in `bomber_env_new.py` to create new challenges for your agents.
 
+## Inspiration
+
+[gym-super-mario-bros](https://pypi.org/project/gym-super-mario-bros/)
+
+## QR-DQN (Quantile Regression Deep Q-Network)
+
+QR-DQN (Quantile Regression Deep Q-Network) is a distributional reinforcement learning method. Instead of just estimating the average expected return (value) of an action, it models the entire distribution of possible returns. This provides the agent with more detailed information about the potential outcomes of its actions, often leading to faster and more stable learning.
+
+![QR-DQN Performance Graph](https://picx.zhimg.com/v2-6d57a4e5e29adc7a9ad3f5bcec674597_1440w.png)
+
+Learn more: [Distributional Reinforcement Learning — Part 1 (C51 and QR-DQN)](https://medium.com/analytics-vidhya/distributional-reinforcement-learning-part-1-c51-and-qr-dqn-a04c96a258dc)
